@@ -4,6 +4,8 @@ public class DmvSimulator
 {
 	public static void main(String[] args)
 	{
+		boolean miracle = Math.random() >= .99;
+		
 		System.out.println("Welcome to the Virtual DMV!");
 		time(1);
 		
@@ -28,9 +30,16 @@ public class DmvSimulator
 		time(3);
 		System.out.println("Welcome to the Virtual DMV, can I see your paperwork?");
 		time(3);
-		System.out.println("Oh, you don't have it?");
-		time(1);
-		System.out.println("Wow, way to waste out time, have you never been to a DMV before or something? Your mother doesn't love you!");
+		if (miracle)
+		{
+			System.out.println("Great, you're all set!");
+		}
+		else
+		{
+			System.out.println("Oh, you don't have it?");
+			time(1);
+			System.out.println("Wow, way to waste out time, have you never been to a DMV before or something? Your mother doesn't love you!");
+		}
 	}
 	
 	public static void time(int s)

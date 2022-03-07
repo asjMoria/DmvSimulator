@@ -38,7 +38,7 @@ public class DmvSimulator
 		{
 			System.out.println("Oh, you don't have it?");
 			time(1);
-			System.out.println("Wow, way to waste out time, have you never been to a DMV before or something? Your mother doesn't love you!");
+			System.out.println("Wow, way to waste out time, have you never been to a DMV before or something? Your mother doesn't love you!\nMwahahaha! (Evil laugh)");
 		}
 	}
 	

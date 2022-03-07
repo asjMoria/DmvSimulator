@@ -7,11 +7,11 @@ public class DmvSimulator
 		System.out.println("Welcome to the Virtual DMV!");
 		time(1);
 		
-		int position = (int)(Math.random() * 100 + 1);
+		int position = (int)(Math.random() * 200 + 1);
 		System.out.println("Your number is " + position + ", please wait until it is called.");
 		
 		int iter = position + 1;
-		while (iter <= 100)
+		while (iter <= 200)
 		{
 			time(1);
 			System.out.println(iter + "!");

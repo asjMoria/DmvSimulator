@@ -30,7 +30,7 @@ public class DmvSimulator
 		time(3);
 		System.out.println("Oh, you don't have it?");
 		time(1);
-		System.out.println("Please come back with the required paperwork.");
+		System.out.println("Wow, way to waste out time, have you never been to a DMV before or something? Your mother doesn't love you!");
 	}
 	
 	public static void time(int s)

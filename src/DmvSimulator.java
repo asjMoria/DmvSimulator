@@ -11,7 +11,7 @@ public class DmvSimulator
 		System.out.println("Your number is " + position + ", please wait until it is called.");
 		
 		int iter = position + 1;
-		while (iter <= 200)
+		while (iter <= 100)
 		{
 			time(1);
 			System.out.println(iter + "!");
